@@ -164,7 +164,7 @@ header {
   background-attachment: fixed;
   position: relative;
   background-color: #f3b70f;
-  background: url(../img/hand.jpeg), url(../img/colors.jpg);
+  background-image: url(../img/hand.jpeg), url(../img/colors.jpg);
   background-size: 430px, 470px;
   background-repeat: no-repeat;
   background-position: left top, right;
