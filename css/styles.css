@@ -275,7 +275,7 @@ ol.numbered-list li {
   position: relative;
   left: 0px;
   list-style: none;
-  counter-increment: li;
+  counter-increment: listelement;
   margin: 20px 0;
   padding-left: 25px;
   padding-top: 10px;
@@ -291,7 +291,24 @@ ol.numbered-list li:last-child {
 
 /*styling numbers in the numbered list*/
 
-ol.numbered-list>li:before {}
+ol.numbered-list>li:before {
+  content: counter(listelement);
+  position: absolute;
+  top: 2px;
+  left: -35px;
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px;
+  margin-right: 8px;
+  vertical-align: middle;
+  color: white;
+  background: #f3b70f;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 25px;
+  line-height: 45px;
+  font-family: 'Karla', sans-serif;
+}
 
 .list {
   margin-bottom: 20px;
