@@ -446,3 +446,8 @@ span.ig {
   padding: 10px 2px;
   font-weight: bold;
 }
+
+footer h3 {
+  -webkit-text-stroke: 2px black;
+  -webkit-text-fill-color: transparent;
+}
