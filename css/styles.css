@@ -217,6 +217,9 @@ ul {
 .contact {
   text-align: center;
   margin: 50px 0;
+  position: relative;
+  background: url(../img/hand2.png) left 0px top 3px no-repeat, url(../img/bananas.png) left 232px top 81px no-repeat, url(../img/hand5.png) right 222px top 105px no-repeat, url(../img/hand3.png) right 0px top 0px no-repeat;
+  background-size: 348px, 208px, 183px, 268px;
 }
 
 /*text stroke and gradient background text + max width in characters*/
