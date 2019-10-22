@@ -388,7 +388,8 @@ ol.numbered-list>li:before {
 /*sibling combinator*/
 
 .chart-legend + p {
-
+  margin-top: 20px;
+  width: 300px;
 }
 
 span.twitter, span.fb, span.ig {
