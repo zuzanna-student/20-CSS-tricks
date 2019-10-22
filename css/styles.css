@@ -234,7 +234,7 @@ h2.contact-heading {
   font-family: 'Dosis', sans-serif;
   font-weight: 900;
   max-width: 8ch;
-  background: radial-gradient(#ffbc00, green);
+  background: radial-gradient(#ffbc00, #ff65aa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px black;
