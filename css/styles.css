@@ -392,6 +392,10 @@ ol.numbered-list>li:before {
   width: 300px;
 }
 
+.chart-legend ~ p {
+  line-height: 200%;
+}
+
 span.twitter, span.fb, span.ig {
   padding: 5px;
   margin-right: 7px;
